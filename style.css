@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.parent {
+    margin: 10px;
+    padding: 10px;
+}
+
+header{
+    display:flex;
+    padding : 10px;
+    top:0;
+    position:sticky; 
+    justify-content:space-between;
+    align-items:center;
+    background-color:#000000b3;
+    font-size:20px;
+    color:white;
+    font-family:tahoma;
+    height:50px;
+}
+header p{
+    font-size: 30px;
+}
+
+input {
+    padding: 5px;
+    width: 90%; 
+    max-width: 320px; 
+    margin-bottom: 10px;
+    margin-right: 3%;
+    background-color: rgb(240, 240, 240);
+    height: 30px;
+    border: 0;
+    font-size: larger;
+    border-radius: 10px;
+    outline: 0;
+}
+
+button {
+    padding: 5px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+    background-color: rgb(240, 240, 240);
+}
+
+iframe {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    outline: 0;
+    height: 500px; 
+    width: 90%; 
+    max-width: 1000px; 
+    margin-left: auto;
+}
+
+.con {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 90%;
+    max-width: 1000px; 
+    background-color: #ffee00;
+}
+
+.con p {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.con ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.con ul li {
+    margin-bottom: 5px;
+}
+
+.con ul li:before {
+    content: "•"; /* Using a bullet point for list items */
+    margin-right: 5px;
+}
+
+
+
