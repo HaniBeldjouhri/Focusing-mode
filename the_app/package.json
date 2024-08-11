@@ -1,0 +1,14 @@
+{
+  "name": "the_app",
+  "version": "1.0.0",
+  "description": "focus_mode",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "hani",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^31.3.1"
+  }
+}
