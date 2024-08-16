@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>FOCUSING MODE</title>
 </head>
 <body>
+    <header>
+       <p>FOCUSING MODE</p>
+    </header>
+    <div class="parent">
+        <div class="child">
+            <input type="text">
+            <button>inter URL</button>
+        </div>
+        <iframe src="" allowfullscreen></iframe>
+        <div class="con">
+            <p>conditions : </p>
+            <ul>
+                <li>You should input a YouTube URL .</li>
+                <li>URL form MUST BE like : (https://www.)youtube.com/watch?v=something .</li>
+            </ul>
+        </div>
+    </div>
     
+    <div class="overlay" id="overlay"></div>
+    <div class="Alert" id="Alert">
+        <p class="WR"> WRONG : </p>
+        <p>You didn't input a YouTube URL .</p>
+        <button id="button_Alt">ok</button>
+    </div>    
+
+    <script src="script.js"></script>
 </body>
 </html>
